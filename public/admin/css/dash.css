@@ -1,0 +1,189 @@
+
+/******************************************************/
+.input_warning{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+}
+.required{
+    color: red;
+    padding : 0px 0px;
+
+}
+.short_code{
+    margin-top: 4px ;
+    color: red;
+    font-size: 12px;
+}
+.back_btn{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    display: flex;
+}
+.back_btn img{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.back_btn span{
+    color: grey;
+    font-size: 22px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.error{
+    color: red;
+}
+.video_frame iframe{
+    height: 315px ;
+    width: 100%;
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #f00000;
+}
+
+.success{
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    color: chartreuse;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.not_succed{
+    padding:  20px;
+    background: #fff;
+    border-radius: 5px;
+    color: red;
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.sidebar .nav p{
+    text-align: left;
+}
+.sidebar .dropdown-menu{
+    width: 80%;
+    left: 10%;
+}
+
+.sidebar .nav li > a{
+    border: none;
+}
+
+
+.main-panel > .content{
+    overflow: scroll;
+}
+
+ .dataTables_wrapper .dataTables_info ul form::after{
+    content: "";
+    display: table;
+    clear: both;
+    display: none;
+}
+
+.collapse ul form li{
+    float: left;
+    width: 20%;
+    margin: 10px;
+    text-align: left;
+}
+
+.collapse ul form input[type="submit"]{
+    border: none;
+    background: transparent;
+    margin: 10px 0px;
+}
+
+table.datatable{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table.datatable thead{
+    border-radius: 5px;
+    background: #F00000;
+}
+
+table.datatable thead th{
+    padding: 10px;
+    max-width: 400px;
+    color: #fff;
+}
+
+table.datatable tr:nth-child(even){
+    background: #eee;
+}
+
+.poem_info{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #eee;
+}
+.poem_info h5{
+    font-weight: bold;
+}
+.poem_info p{
+    font-size: 14px;
+}
+
+.head_single{
+    text-align: center;
+}
+.poem{
+    text-align: center;
+    padding: 20px;
+}
+.poem_hd_color{
+    color: #F00000;
+}
+
+form textarea{
+    min-height: 400px;
+}
+
+
+.poet_img img{
+    width: 100%;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.search{
+    text-align: right;
+}
+.search ul li{
+    list-style: none;
+    width: 16%;
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+.search ul li.refresh{
+    list-style: none;
+    width: 5%;
+    display: inline-block;
+    padding: 0px 0px;
+    position: relative;
+    bottom: 2px;
+}
+.search ul li:last-child{
+    list-style: none;
+    width: 5%;
+    display: inline-block;
+    padding: 0px 0px;
+    position: relative;
+    bottom: 2px;
+}

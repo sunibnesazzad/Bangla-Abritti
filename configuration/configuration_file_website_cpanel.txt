@@ -1,0 +1,18 @@
+!---------- CPANEL ACCESS ----------!
+
+username      : banglaabritti
+password      : !vbvrnU$,C(&
+
+
+
+
+!---------- SSH KEY ----------!
+
+key name 	: website
+password 	: (uR5^=5{j[ik      (dont use space before and after password)
+key file name   : website.ppk (file is located in the same folder)
+
+
+
+dushohid@gmail.com
+
